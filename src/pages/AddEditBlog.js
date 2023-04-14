@@ -20,6 +20,8 @@ const initialState = {
   trending: "no",
   category: "",
   description: "",
+  comments: [],
+  likes: []
 };
 
 const categoryOption = [
@@ -29,8 +31,6 @@ const categoryOption = [
   "Politics",
   "Sports",
   "Business",
-  "Coding",
-  "News",
 ];
 
 const AddEditBlog = ({ user, setActive }) => {
